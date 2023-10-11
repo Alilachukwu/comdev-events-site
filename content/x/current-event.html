@@ -7,7 +7,6 @@
   <meta name="keywords" content="apache, apache events, apache community, opensource"/>
 
   <title>ApacheCon Events</title>
-  <link rel="shortcut icon" href="/images/concom-icon.ico">
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <link href="/style/screen.css" rel="stylesheet" type="text/css">
@@ -87,18 +86,24 @@
   <div id="content">
     <h1 class="title">ApacheCon Events</h1>
     
-	<noscript>
-  <meta http-equiv="refresh" content="1; url=https://apachecon.com/">
+	<!--
+    The URL to which this page redirects should agree with
+    https://github.com/apache/www-site/blob/main/content/events/current-event.md
+    and the default event in
+    https://www.apachecon.com/event-images/snippet.js
+-->
+<noscript>
+  <meta http-equiv="refresh" content="1; url=https://communityovercode.org/">
 </noscript>
 <script type="text/javascript">
   var ref = document.referrer || "https://www.apache.org/";
   var m = ref.match(/https?:\/\/([-_a-zA-Z0-9.]+)\/?/);
   if (m) {
     ref = m[1];
-  } else { 
-    ref = 'unknown'; 
+  } else {
+    ref = 'unknown';
   }
-  location.href = "https://apachecon.com/?ref=" + ref;
+  location.href = "https://communityovercode.org/?ref=" + ref;
 </script>
 <h1 id="apachecon">ApacheCon</h1>
 <p>ApacheCon is the place to come to learn what Apache projects are doing, as well as a place for projects to come to build stronger project communities, as well as forge the bonds between projects. For more information about ApacheCon, please go to <a href="https://apachecon.com/">ApacheCon.com</a>.</p>
